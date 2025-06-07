@@ -1,7 +1,7 @@
 {
-  "name": "notes-wrapper",
+  "name": "icloud-wrapper",
   "version": "1.0.0",
-  "description": "A simple Electron wrapper for Apple notes applications.",
+  "description": "A really simple Electron wrapper for iCloud",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,8 +18,8 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "com.yourcompany.noteswrapper",
-    "productName": "Notes Wrapper",
+    "appId": "com.msh31.icloudwrapper",
+    "productName": "iCloud Wrapper",
     "copyright": "Copyright © 2025 ${author}",
     "directories": {
       "output": "dist"
@@ -36,7 +36,7 @@
       ]
     },
     "win": {
-      "icon": "icons/icon.ico",
+      "icon": "icons/cloud_icon.ico",
       "target": [
         "nsis",
         "zip"

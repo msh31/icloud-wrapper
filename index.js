@@ -9,7 +9,7 @@ function createWindow () {
     }
   });
 
-  window.loadURL('https://www.icloud.com/notes');
+  window.loadURL('https://www.icloud.com/');
   window.setMenu(null);
 }
 
